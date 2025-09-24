@@ -1,0 +1,25 @@
+[project]
+name = "nfl-outcome-predictor"
+version = "0.1.0"
+description = "Repo containing a classifier model to predict moneyline and spread of NFL games"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=25.1.0",
+    "jupyterlab>=4.4.7",
+    "matplotlib>=3.10.6",
+    "meteostat>=1.7.4",
+    "nflreadpy>=0.1.2",
+    "numpy>=2.3.3",
+    "pandas>=2.3.2",
+    "plotly>=6.3.0",
+    "polars>=1.33.1",
+    "pyarrow>=21.0.0",
+    "pytest>=8.4.2",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "streamlit>=1.49.1",
+    "tensorflow>=2.20.0",
+    "torch>=2.8.0",
+    "xgboost>=3.0.5",
+]
