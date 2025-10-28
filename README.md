@@ -1,4 +1,4 @@
-# NFL Prediction System
+# NFL Outcome Predictor
 
 ## Overview
 
@@ -6,7 +6,7 @@ This project implements machine learning models to predict NFL game outcomes usi
 
 ## Prerequisites
 
-- **Python 3.12+** 
+- **Python 3.12+**
 - **UV Package Manager** (this GOAT)
 
 ## Installation & Setup
@@ -66,7 +66,7 @@ print(f'Loaded {len(df)} games from 2024 season')
 ## Project Structure (Possibly)
 
 ```
-NFL-Final-Project/
+nfl_outcome_predictor/
 - src/                    # Main source code
 -   - data/              # Data collection modules
 -   - features/          # Feature engineering
@@ -205,9 +205,9 @@ Key dependencies managed by UV:
 # Restart terminal or source your shell profile
 source ~/.bashrc  # or ~/.zshrc
 
-#Set python to your present working directory if you run with just 
-# python .. 
-# Instead of 
+#Set python to your present working directory if you run with just
+# python ..
+# Instead of
 # uv python ..
 
 # This will only work for Mac / unix machines
